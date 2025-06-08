@@ -13,6 +13,7 @@ int main(){
     int pontosturisticos1 = 25;
     float densidadepopulacional1;
     float pibpercapita1;
+    int resultado1, resultado2;
 
      printf("Carta: %d\n", carta1);
      printf("Estado: %c\n", estado1);
@@ -90,8 +91,11 @@ int main(){
         printf("Carta 1 venceu!\n");
     } else {
         printf("Carta 2 venceu!\n");
-    }
-    printf("A carta vencedora é: %s\n", carta1, carta2);
+    } 
+    
+        printf("A carta vencedora é: %c\n", carta1 += carta2);
+
+    
     
 
     return 0;
